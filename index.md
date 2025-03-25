@@ -6,6 +6,9 @@ hero:
   name: "Sett's Bar"
   text: "Lorem Ipsun dollor"
   tagline: My great project tagline
+  image:
+    src: ./assets/favicon.svg
+    alt: VueUse
   actions:
     - theme: brand
       text: Markdown Examples
@@ -20,12 +23,12 @@ hero:
       text: Posts Hello
       link: /posts/hello
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
