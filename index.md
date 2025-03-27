@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Sett's Bar"
+  name: "Vitepress Boilerplate"
   text: "Lorem Ipsun dollor"
   tagline: My great project tagline
   image:
@@ -20,15 +20,15 @@ hero:
       text: Posts
       link: /posts
     - theme: brand
-      text: Posts Hello
+      text: Posts/Hello
       link: /posts/hello
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Sett's Drinks",
-  description: "Bar drink recipies",
+  title: "Vitepress Boilerplate",
+  description: "Vitepress Boilerplate for small projects",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -33,6 +33,14 @@ export default defineConfig({
             items: [
               { text: 'Posts Hello', link: '/posts/hello' },
               { text: 'Posts Drink', link: '/posts/drink' },
+              {
+                text: 'Post sub Item',
+                collapsed: true,
+                items: [
+                  { text: 'Subposts Hello', link: '/posts/sub/hello' },
+                  { text: 'Subposts Drink', link: '/posts/sub/drink' },
+                ]
+              }
             ]
           }
         ]
@@ -40,7 +48,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'instagram', link: 'https://instagram.com/' }
     ],
 
     search: {
